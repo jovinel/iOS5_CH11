@@ -17,6 +17,7 @@
 		00923BEB184EFB8600A05787 /* BIDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00923BEA184EFB8600A05787 /* BIDMasterViewController.m */; };
 		00923BEE184EFB8600A05787 /* BIDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00923BED184EFB8600A05787 /* BIDDetailViewController.m */; };
 		00923BF5184F033500A05787 /* PresidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00923BF4184F033500A05787 /* PresidentList.plist */; };
+		00923BF8184F0F6A00A05787 /* BIDLanguageListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00923BF7184F0F6900A05787 /* BIDLanguageListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		00923BEC184EFB8600A05787 /* BIDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDDetailViewController.h; sourceTree = "<group>"; };
 		00923BED184EFB8600A05787 /* BIDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDDetailViewController.m; sourceTree = "<group>"; };
 		00923BF4184F033500A05787 /* PresidentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PresidentList.plist; sourceTree = "<group>"; };
+		00923BF6184F0F6900A05787 /* BIDLanguageListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDLanguageListController.h; sourceTree = "<group>"; };
+		00923BF7184F0F6900A05787 /* BIDLanguageListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDLanguageListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				00923BEC184EFB8600A05787 /* BIDDetailViewController.h */,
 				00923BED184EFB8600A05787 /* BIDDetailViewController.m */,
 				00923BDB184EFB8600A05787 /* Supporting Files */,
+				00923BF6184F0F6900A05787 /* BIDLanguageListController.h */,
+				00923BF7184F0F6900A05787 /* BIDLanguageListController.m */,
 			);
 			path = Presidents;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				00923BE5184EFB8600A05787 /* BIDAppDelegate.m in Sources */,
 				00923BEB184EFB8600A05787 /* BIDMasterViewController.m in Sources */,
 				00923BEE184EFB8600A05787 /* BIDDetailViewController.m in Sources */,
+				00923BF8184F0F6A00A05787 /* BIDLanguageListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
