@@ -16,6 +16,7 @@
 		00923BE8184EFB8600A05787 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00923BE6184EFB8600A05787 /* MainStoryboard.storyboard */; };
 		00923BEB184EFB8600A05787 /* BIDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00923BEA184EFB8600A05787 /* BIDMasterViewController.m */; };
 		00923BEE184EFB8600A05787 /* BIDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00923BED184EFB8600A05787 /* BIDDetailViewController.m */; };
+		00923BF5184F033500A05787 /* PresidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00923BF4184F033500A05787 /* PresidentList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		00923BEA184EFB8600A05787 /* BIDMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDMasterViewController.m; sourceTree = "<group>"; };
 		00923BEC184EFB8600A05787 /* BIDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDDetailViewController.h; sourceTree = "<group>"; };
 		00923BED184EFB8600A05787 /* BIDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDDetailViewController.m; sourceTree = "<group>"; };
+		00923BF4184F033500A05787 /* PresidentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PresidentList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		00923BDA184EFB8600A05787 /* Presidents */ = {
 			isa = PBXGroup;
 			children = (
+				00923BF4184F033500A05787 /* PresidentList.plist */,
 				00923BE3184EFB8600A05787 /* BIDAppDelegate.h */,
 				00923BE4184EFB8600A05787 /* BIDAppDelegate.m */,
 				00923BE6184EFB8600A05787 /* MainStoryboard.storyboard */,
@@ -155,6 +158,7 @@
 			files = (
 				00923BDF184EFB8600A05787 /* InfoPlist.strings in Resources */,
 				00923BE8184EFB8600A05787 /* MainStoryboard.storyboard in Resources */,
+				00923BF5184F033500A05787 /* PresidentList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
